@@ -1,0 +1,192 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    height: 95.906px;
+    background-color:black; 
+    position:fixed;
+    display: flex;
+    align-items: center;
+
+} 
+.head-tag{
+    display:flex;
+    position: absolute;
+    margin-left: 560px;
+    
+}
+.logo img{
+  margin-left: 50px;
+    width:120px;
+}
+
+.anchor_img img{
+    margin-left:20px;
+    width:23px;
+    height:23px;
+}
+.anchor{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration:none;
+    margin-right:50px;
+    color:white;
+} 
+.anchor:hover{
+    color:#daa90a;
+} 
+.heading{
+    font-family:'Open Sans', sans-serif;
+    color:rgb(45, 45, 46);
+    font-size:40px;
+    text-align: center;
+    margin-bottom:50px; 
+}
+.introimage{   
+    padding:5% 0px;
+    width: 100%;
+    
+}
+.introimage img{
+    width:100%;
+}
+
+
+.icecreams{
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icecream{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icecream-img{
+    width: 376.656px;
+    height: 275.891px;
+}
+.name{
+    color:rgb(44, 43, 43);
+    font-family:'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    padding:10px;
+}
+#icecreamlast{
+    width:470px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#icecreamz{
+    width:auto;
+    height: 400px;
+    display: flex;
+    justify-content:flex-start; 
+}
+.last{
+    background-color:#be9509;
+   display:flex;
+   justify-content:center;
+   margin-top: 50px;
+}
+footer{
+    height:260px;
+    background-color:black; 
+    border-bottom:1px solid rgb(41, 39, 39);
+
+}
+.simons{
+    width:150px;
+    height:137px;
+    margin-top: 50px;
+}
+.finalspace{
+    display:flex; 
+    justify-content:space-evenly;
+    
+}
+.finallist{
+    width:auto;
+    color:#be9509;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.font{
+    text-decoration: none;
+    color: #be9509;
+    font-size: 14px;
+}
+.font:hover{
+    color:white;
+    text-decoration:underline;
+}
+.footer-ul h4{
+    padding-left:6px;
+    margin-top:50px;
+}
+.premium{
+    width:150px;
+    height:118px;
+    margin-top:50px;
+    margin-right:30px;
+}
+
+
+p{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:16px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left:20px;
+    color:#be9509;
+}
+.whatsapplogo{
+
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+}
+.whatsapplogo img{
+    width:60px;
+    height:60px;
+}
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.footer-ul{
+    list-style-type: none;
+}
+li{
+    padding:5px;
+}
+
+
+.end{
+    padding-bottom:20px;
+    height:50px;
+    background-color:black;
+    border-top:1px solid #666;
+}
+.end p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left:30px;
+    
+}
+.footer-ul img{
+    width:30px;
+    height: 30px;
+}
